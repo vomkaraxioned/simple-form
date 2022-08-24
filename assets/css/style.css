@@ -223,6 +223,16 @@ li {
   Header styling starts here
 =================================*/
 
+
+/*=================================
+  Header styling ends here
+=================================*/
+
+
+/*=================================
+  main styling starts here
+=================================*/
+
 .form {
     width: 25%;
     padding: 40px 0;
@@ -238,22 +248,26 @@ form {
 .form-fields {
     padding: 10px 5%;
     display: flex;
-    flex-direction: column;
     background-color: #100;
+    flex-direction: column;
+    align-items: center;
 }
 
 .field {
     width: 100%;
     padding-bottom: 10px;
+    display: flex;
 }
 
-.field:first-child {
+.field:last-child {
     display: flex;
+    justify-content: center;
 }
 
 .first-name,
 .last-name {
     flex-basis: 45%;
+    display: flex;
 }
 
 .first-name {
@@ -263,23 +277,35 @@ form {
 input[type=text],
 input[type=email] {
     width: 100%;
-    padding: 10px 0;
-    display: flex;
+    padding: 10px 2%;
+}
+
+input[type=submit] {
+    padding: 10px 5%;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
 }
 
 input:focus {
     outline: none;
 }
 
+input[type=submit] {
+    padding: 10px 5%;
+}
 
-/*=================================
-  Header styling ends here
-=================================*/
+.err {
+    display: block;
+    text-indent: -9999px;
+}
 
-
-/*=================================
-  main styling starts here
-=================================*/
+.form a {
+    padding: 10px 5%;
+    color: #000;
+    font-size: 12px;
+}
 
 
 /*=================================
