@@ -257,6 +257,7 @@ form {
     width: 100%;
     padding-bottom: 10px;
     display: flex;
+    position: relative;
 }
 
 .field:last-child {
@@ -297,9 +298,26 @@ input[type=submit] {
 }
 
 .err {
+<<<<<<< HEAD
     display: none;
+=======
+    border-radius: 5px;
+    display: inline-block;
+    position: absolute;
+    right: -35%;
+    bottom: 25%;
+    color: #f00;
+>>>>>>> dev
     text-indent: -9999px;
 }
+
+
+/* .err::before {
+    font-family: 'FontAwesome';
+    font-weight: 900;
+    font-size: 21px;
+    content: '\21';
+} */
 
 .form a {
     padding: 10px 5%;
