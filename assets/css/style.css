@@ -297,7 +297,7 @@ input[type=submit] {
 }
 
 .err {
-    display: block;
+    display: none;
     text-indent: -9999px;
 }
 
